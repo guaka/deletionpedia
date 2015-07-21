@@ -4,7 +4,7 @@
 
 ## antidelete.py
 
-This bot is based on (pywikibot)[https://www.mediawiki.org/wiki/Manual:Pywikibot]. It may be an older version and YMMV. Report issues if you want to improve this.
+This bot is based on [pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot). It may be an older version and YMMV. Report issues if you want to improve this.
 
 ## Languages
 
