@@ -9,3 +9,5 @@ This bot is based on [pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot
 ## Languages
 
 We're already running in a few languages. You're welcome to help increase the number of languages supported. See https://github.com/guaka/deletionpedia/issues/4
+
+You can also contribute with ideas and comments in French, German, Dutch, Spanish, Italian and a few other languages.
