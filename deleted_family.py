@@ -5,7 +5,7 @@ class Family(family.Family):
     def __init__(self):
         family.Family.__init__(self)
         self.name = 'deleted'
-        langlist = [ 'en', 'fr', 'nl', 'de', 'es', 'it', 'pt', 'sv' ]
+        langlist = [ 'en', 'fr', 'fi', 'nl', 'de', 'es', 'it', 'pt', 'sv' ]
         self.langs = { x: x for x in langlist }
 
     def hostname(self, code):

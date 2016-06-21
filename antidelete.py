@@ -119,6 +119,11 @@ if __name__ == '__main__':
         'fn_day': lambda d: 'Wikipedia:Articles_for_deletion/Log/' + d.strftime('%Y_%B_%e'),
         'fn_title': lambda t: t.replace(' (2nd nomination)', ''),
         }
+    patterns['fi'] = {
+        'test': 'oistoäänestys}}',
+        'regexp': '{{/(.*)}}',
+        'title': u'Wikipedia:Poistoäänestykset'
+        }
     patterns['fr'] = {
         'test': 'uppression}}',
         'regexp': '[*]{{L[|](.*)}}',
@@ -129,6 +134,6 @@ if __name__ == '__main__':
         'regexp': '[*]\[\[(.+)\]\]',
         'fn_day': lambda d: "Wikipedia:Te beoordelen pagina's/Toegevoegd " + d.strftime('%Y%m%d')
         }
-    for lang in ['de', 'en', 'nl', 'fr', 'sv']:
+    for lang in ['de', 'en', 'fi', 'nl', 'fr', 'sv']:
         ad = Antidelete(lang, patterns[lang])
         ad.fetch()
