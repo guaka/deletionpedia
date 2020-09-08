@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# (C) Kasper Souren 2013-2015
+# (C) 2013-2020 various people
 #
 # http://deletionpedia.org/
 #
