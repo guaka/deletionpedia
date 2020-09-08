@@ -134,6 +134,11 @@ if __name__ == '__main__':
         'regexp': '[*]\[\[(.+)\]\]',
         'fn_day': lambda d: "Wikipedia:Te beoordelen pagina's/Toegevoegd " + d.strftime('%Y%m%d')
         }
-    for lang in ['de', 'en', 'fi', 'nl', 'fr', 'sv']:
+    patterns['pt'] = {
+        'test': 'Páginas para eliminar',
+        'regexp': '{{Wikipédia:Páginas para eliminar/(.*)}}',
+        'title': u'Páginas_para_eliminar'
+        }
+    for lang in ['de', 'en', 'fi', 'nl', 'fr', 'sv', 'pt']:
         ad = Antidelete(lang, patterns[lang])
         ad.fetch()
